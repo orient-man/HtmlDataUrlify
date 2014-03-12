@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.IO;
 
 namespace HtmlDataUrlify
 {
@@ -6,7 +6,7 @@ namespace HtmlDataUrlify
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(new DataUrlify().Urlify(args[0]));
+            File.WriteAllText(args[1], new DataUrlify().Urlify(args[0]));
         }
     }
 }

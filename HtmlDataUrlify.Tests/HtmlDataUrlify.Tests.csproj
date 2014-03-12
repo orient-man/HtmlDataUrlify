@@ -61,6 +61,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="mm.jpg" />
     <Content Include="TestPageNoImages.html" />
     <Content Include="TestPage.html" />
   </ItemGroup>
